@@ -48,7 +48,7 @@ of documents that contain t).
 product of its tf weight and its idf weight by the formula w = log10(1+tf ) log10(N/df)).
 4. we put the weights in separate list.
 5. the Score of each document based on the query will be : the sum of weights.
-#4 Analyzing System Implementation: Insights and Discoveries
+## 4 Analyzing System Implementation: Insights and Discoveries
 ### 4.1 Commentary
 Our IR system consists of four processes: (i) indexing,(ii) query formulation, (iii) matching,
 and (iv) re-ranking.
