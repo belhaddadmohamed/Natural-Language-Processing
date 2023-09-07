@@ -1,4 +1,4 @@
-# Natural-Language-Processing
+# Information Retreival System
 
 ## 1 The top methods used for tokenisation and stemming
 ### 1.1 Tokenisation
