@@ -7,6 +7,7 @@ specifying the pattern to "(\w{0,})".
 ### 1.2 Stemming
 we use function porter2().stem(sentence) from Python stemming module, it helps to work
 the process of producing morphological variants of a root/base word.
+
 ## 2 How we implemented the inverted index?
 1. we implemented tokenisation and stemming on all headlines and all texts and we
 combined them both for every single document.
@@ -16,6 +17,7 @@ which the keys represent document numbers and values represent an array containi
 positions.
 and a value "count" represent the document frequency which be incremented if the same
 word appears in a different document.
+
 ## 3 Efficient Implementation of Four Search Functions
 ### 3.1 Phrase search
 1. we used a function called phrasesearch(i, phrase) with ’i’ is the distance of between
@@ -30,7 +32,6 @@ distance between terms <= i.
 2. The maximum number of intermediate words between the search words can be taken
 from query "i".
 3. send preprocced query to phrase search with "i" being the distance given.
-
 ## 3.3 Boolean search
 1. we get the type of boolean query (AND, OR, AND NOT, OR NOT), splits into the
 two terms mentioned.
@@ -48,6 +49,7 @@ of documents that contain t).
 product of its tf weight and its idf weight by the formula w = log10(1+tf ) log10(N/df)).
 4. we put the weights in separate list.
 5. the Score of each document based on the query will be : the sum of weights.
+
 ## 4 Analyzing System Implementation: Insights and Discoveries
 ### 4.1 Commentary
 Our IR system consists of four processes: (i) indexing,(ii) query formulation, (iii) matching,
@@ -59,10 +61,12 @@ the user, IR systems may employ many different retrieval models in the matching 
 - understand the issues involved in providing an IR service on a web scale, including
 distributed index construction and user modelling for recommendation engines.
 ------image-----
+
 ## 5 Challenges
 - it was so difficult and hard to find documentations that helps in our work.
 - How implementing the inverted index and boolean search.
 - challenge of the time , it took us a long time for implement it and organization the code.
+
 ## 6 Suggestions for Enhancing and Scaling Our Implementation
 - we will make better use of cocine similarity measure.
 - we will add feature to search for image.
