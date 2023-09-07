@@ -1,4 +1,4 @@
-# Information Retreival System
+# Information Retrieval System
 
 ## 1 The top methods used for tokenisation and stemming
 ### 1.1 Tokenisation
