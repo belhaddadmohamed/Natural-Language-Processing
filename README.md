@@ -61,7 +61,7 @@ the user, IR systems may employ many different retrieval models in the matching 
 - gain an understanding of the basic concepts and techniques in information retrieval.
 - understand the issues involved in providing an IR service on a web scale, including
 distributed index construction and user modelling for recommendation engines.
-![IR System](Course%Work/IR%System.png)
+![IR System](https://github.com/belhaddadmohamed/Natural-Language-Processing/blob/main/Course%20Work/IR%20System.png)
 
 ## 5 Challenges
 - it was so difficult and hard to find documentations that helps in our work.
